@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		238DDE7B1E350B2A00E9A296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 238DDE7A1E350B2A00E9A296 /* main.m */; };
+		238DDE7E1E350B2A00E9A296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 238DDE7D1E350B2A00E9A296 /* AppDelegate.m */; };
+		238DDE811E350B2A00E9A296 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 238DDE801E350B2A00E9A296 /* ViewController.m */; };
+		238DDE841E350B2A00E9A296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238DDE821E350B2A00E9A296 /* Main.storyboard */; };
+		238DDE861E350B2A00E9A296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 238DDE851E350B2A00E9A296 /* Assets.xcassets */; };
+		238DDE891E350B2A00E9A296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238DDE871E350B2A00E9A296 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		238DDE761E350B2A00E9A296 /* DevslopesYoutubeListTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevslopesYoutubeListTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		238DDE7A1E350B2A00E9A296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		238DDE7C1E350B2A00E9A296 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		238DDE7D1E350B2A00E9A296 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		238DDE7F1E350B2A00E9A296 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		238DDE801E350B2A00E9A296 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		238DDE831E350B2A00E9A296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		238DDE851E350B2A00E9A296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		238DDE881E350B2A00E9A296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		238DDE8A1E350B2A00E9A296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		238DDE731E350B2A00E9A296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		238DDE6D1E350B2A00E9A296 = {
+			isa = PBXGroup;
+			children = (
+				238DDE781E350B2A00E9A296 /* DevslopesYoutubeListTutorial */,
+				238DDE771E350B2A00E9A296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		238DDE771E350B2A00E9A296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				238DDE761E350B2A00E9A296 /* DevslopesYoutubeListTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		238DDE781E350B2A00E9A296 /* DevslopesYoutubeListTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				238DDE7C1E350B2A00E9A296 /* AppDelegate.h */,
+				238DDE7D1E350B2A00E9A296 /* AppDelegate.m */,
+				238DDE7F1E350B2A00E9A296 /* ViewController.h */,
+				238DDE801E350B2A00E9A296 /* ViewController.m */,
+				238DDE821E350B2A00E9A296 /* Main.storyboard */,
+				238DDE851E350B2A00E9A296 /* Assets.xcassets */,
+				238DDE871E350B2A00E9A296 /* LaunchScreen.storyboard */,
+				238DDE8A1E350B2A00E9A296 /* Info.plist */,
+				238DDE791E350B2A00E9A296 /* Supporting Files */,
+			);
+			path = DevslopesYoutubeListTutorial;
+			sourceTree = "<group>";
+		};
+		238DDE791E350B2A00E9A296 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				238DDE7A1E350B2A00E9A296 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		238DDE751E350B2A00E9A296 /* DevslopesYoutubeListTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238DDE8D1E350B2A00E9A296 /* Build configuration list for PBXNativeTarget "DevslopesYoutubeListTutorial" */;
+			buildPhases = (
+				238DDE721E350B2A00E9A296 /* Sources */,
+				238DDE731E350B2A00E9A296 /* Frameworks */,
+				238DDE741E350B2A00E9A296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DevslopesYoutubeListTutorial;
+			productName = DevslopesYoutubeListTutorial;
+			productReference = 238DDE761E350B2A00E9A296 /* DevslopesYoutubeListTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		238DDE6E1E350B2A00E9A296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Kacper Kowalski";
+				TargetAttributes = {
+					238DDE751E350B2A00E9A296 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S865ZAZW4F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 238DDE711E350B2A00E9A296 /* Build configuration list for PBXProject "DevslopesYoutubeListTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 238DDE6D1E350B2A00E9A296;
+			productRefGroup = 238DDE771E350B2A00E9A296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				238DDE751E350B2A00E9A296 /* DevslopesYoutubeListTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		238DDE741E350B2A00E9A296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238DDE891E350B2A00E9A296 /* LaunchScreen.storyboard in Resources */,
+				238DDE861E350B2A00E9A296 /* Assets.xcassets in Resources */,
+				238DDE841E350B2A00E9A296 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		238DDE721E350B2A00E9A296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238DDE811E350B2A00E9A296 /* ViewController.m in Sources */,
+				238DDE7E1E350B2A00E9A296 /* AppDelegate.m in Sources */,
+				238DDE7B1E350B2A00E9A296 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		238DDE821E350B2A00E9A296 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				238DDE831E350B2A00E9A296 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		238DDE871E350B2A00E9A296 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				238DDE881E350B2A00E9A296 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		238DDE8B1E350B2A00E9A296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		238DDE8C1E350B2A00E9A296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		238DDE8E1E350B2A00E9A296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S865ZAZW4F;
+				INFOPLIST_FILE = DevslopesYoutubeListTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kkovalsky.DevslopesYoutubeListTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		238DDE8F1E350B2A00E9A296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S865ZAZW4F;
+				INFOPLIST_FILE = DevslopesYoutubeListTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kkovalsky.DevslopesYoutubeListTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		238DDE711E350B2A00E9A296 /* Build configuration list for PBXProject "DevslopesYoutubeListTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238DDE8B1E350B2A00E9A296 /* Debug */,
+				238DDE8C1E350B2A00E9A296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238DDE8D1E350B2A00E9A296 /* Build configuration list for PBXNativeTarget "DevslopesYoutubeListTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238DDE8E1E350B2A00E9A296 /* Debug */,
+				238DDE8F1E350B2A00E9A296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 238DDE6E1E350B2A00E9A296 /* Project object */;
+}
