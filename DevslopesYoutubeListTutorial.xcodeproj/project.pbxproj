@@ -13,6 +13,7 @@
 		238DDE841E350B2A00E9A296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238DDE821E350B2A00E9A296 /* Main.storyboard */; };
 		238DDE861E350B2A00E9A296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 238DDE851E350B2A00E9A296 /* Assets.xcassets */; };
 		238DDE891E350B2A00E9A296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238DDE871E350B2A00E9A296 /* LaunchScreen.storyboard */; };
+		238DDE921E350B4500E9A296 /* HTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 238DDE911E350B4500E9A296 /* HTTPService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		238DDE851E350B2A00E9A296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		238DDE881E350B2A00E9A296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		238DDE8A1E350B2A00E9A296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238DDE901E350B4500E9A296 /* HTTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPService.h; sourceTree = "<group>"; };
+		238DDE911E350B4500E9A296 /* HTTPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		238DDE6D1E350B2A00E9A296 = {
 			isa = PBXGroup;
 			children = (
+				238DDE901E350B4500E9A296 /* HTTPService.h */,
+				238DDE911E350B4500E9A296 /* HTTPService.m */,
 				238DDE781E350B2A00E9A296 /* DevslopesYoutubeListTutorial */,
 				238DDE771E350B2A00E9A296 /* Products */,
 			);
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				238DDE811E350B2A00E9A296 /* ViewController.m in Sources */,
+				238DDE921E350B4500E9A296 /* HTTPService.m in Sources */,
 				238DDE7E1E350B2A00E9A296 /* AppDelegate.m in Sources */,
 				238DDE7B1E350B2A00E9A296 /* main.m in Sources */,
 			);
