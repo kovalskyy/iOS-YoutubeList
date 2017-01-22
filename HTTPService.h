@@ -8,8 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+// Block syntax for a callback! Very weird syntax
+
+
+typedef void (^onComplete)(NSDictionary * __nullable dataDict, NSString * __nullable errMessage);
+
 @interface HTTPService : NSObject
 
 + (id) instance;                    // static func -> static - only one of it in memory; call it globally on class!
+
+- (void) getTutorials:(nullable onComplete)completionHanlder;
+
+
 
 @end
