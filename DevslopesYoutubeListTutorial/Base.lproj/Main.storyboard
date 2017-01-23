@@ -109,11 +109,90 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="InW-Kz-oB7" id="a1m-5J-Cls"/>
+                        <segue destination="SR5-Ou-vYz" kind="presentation" identifier="videoVC" id="gbO-1d-Q2v"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+        <!--VideoVC-->
+        <scene sceneID="RKE-ZV-EOS">
+            <objects>
+                <viewController id="SR5-Ou-vYz" customClass="VideoVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y5b-ye-Sf1"/>
+                        <viewControllerLayoutGuide type="bottom" id="svJ-wp-KFK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s5b-d4-DYF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Android Studio Tutorial For Beginners" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87i-YT-ooe">
+                                <rect key="frame" x="8" y="296" width="359" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="4Li-O6-Rzw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn how to install Android Studio and then go through this tutorial to build your very first app" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTG-f5-tKh">
+                                <rect key="frame" x="8" y="380" width="359" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="cb2-UK-m8u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qtt-DC-2lp">
+                                <rect key="frame" x="8" y="607" width="359" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="aUd-km-U7k"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="DONE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="DoneBtnTapped:" destination="SR5-Ou-vYz" eventType="touchUpInside" id="ARQ-qi-8VA"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Esg-Eq-7C3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="288"/>
+                                <color key="backgroundColor" red="0.36078431372549019" green="0.38823529411764707" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="288" id="L10-PU-Ff8"/>
+                                </constraints>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Esg-Eq-7C3" firstAttribute="leading" secondItem="s5b-d4-DYF" secondAttribute="leading" id="30f-QZ-YDw"/>
+                            <constraint firstItem="87i-YT-ooe" firstAttribute="leading" secondItem="s5b-d4-DYF" secondAttribute="leading" constant="8" id="8uL-mp-5ER"/>
+                            <constraint firstItem="Qtt-DC-2lp" firstAttribute="leading" secondItem="s5b-d4-DYF" secondAttribute="leading" constant="8" id="AQ9-Zo-jGP"/>
+                            <constraint firstAttribute="trailing" secondItem="Esg-Eq-7C3" secondAttribute="trailing" id="BBs-5G-vVA"/>
+                            <constraint firstItem="hTG-f5-tKh" firstAttribute="top" secondItem="87i-YT-ooe" secondAttribute="bottom" constant="8" id="BVc-8r-2ww"/>
+                            <constraint firstItem="Esg-Eq-7C3" firstAttribute="top" secondItem="s5b-d4-DYF" secondAttribute="top" id="NQn-3t-smx"/>
+                            <constraint firstItem="svJ-wp-KFK" firstAttribute="top" secondItem="Qtt-DC-2lp" secondAttribute="bottom" constant="20" id="RcB-r0-rmQ"/>
+                            <constraint firstAttribute="trailing" secondItem="87i-YT-ooe" secondAttribute="trailing" constant="8" id="c5Z-Yx-xh8"/>
+                            <constraint firstItem="87i-YT-ooe" firstAttribute="top" secondItem="Esg-Eq-7C3" secondAttribute="bottom" constant="8" id="e6a-Qr-3S1"/>
+                            <constraint firstAttribute="trailing" secondItem="Qtt-DC-2lp" secondAttribute="trailing" constant="8" id="ikS-zH-Y4w"/>
+                            <constraint firstAttribute="trailing" secondItem="hTG-f5-tKh" secondAttribute="trailing" constant="8" id="itz-JT-scs"/>
+                            <constraint firstItem="hTG-f5-tKh" firstAttribute="leading" secondItem="s5b-d4-DYF" secondAttribute="leading" constant="8" id="vUZ-cT-b4m"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="descLbl" destination="hTG-f5-tKh" id="c8h-MS-H1h"/>
+                        <outlet property="titleLbl" destination="87i-YT-ooe" id="YdT-zO-Xln"/>
+                        <outlet property="webView" destination="Esg-Eq-7C3" id="NK9-q6-UoG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xrF-Wo-VJE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="862" y="116"/>
         </scene>
     </scenes>
 </document>
