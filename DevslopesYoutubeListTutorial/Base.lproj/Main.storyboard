@@ -129,7 +129,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Android Studio Tutorial For Beginners" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87i-YT-ooe">
-                                <rect key="frame" x="8" y="296" width="359" height="76"/>
+                                <rect key="frame" x="8" y="306" width="359" height="76"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="76" id="4Li-O6-Rzw"/>
                                 </constraints>
@@ -137,13 +137,13 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn how to install Android Studio and then go through this tutorial to build your very first app" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTG-f5-tKh">
-                                <rect key="frame" x="8" y="380" width="359" height="100"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn how to install Android Studio and then go through this tutorial to build your very first app" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTG-f5-tKh">
+                                <rect key="frame" x="8" y="390" width="359" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="cb2-UK-m8u"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qtt-DC-2lp">
@@ -161,7 +161,7 @@
                                 </connections>
                             </button>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Esg-Eq-7C3">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="288"/>
+                                <rect key="frame" x="0.0" y="10" width="375" height="288"/>
                                 <color key="backgroundColor" red="0.36078431372549019" green="0.38823529411764707" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="288" id="L10-PU-Ff8"/>
@@ -175,7 +175,7 @@
                             <constraint firstItem="Qtt-DC-2lp" firstAttribute="leading" secondItem="s5b-d4-DYF" secondAttribute="leading" constant="8" id="AQ9-Zo-jGP"/>
                             <constraint firstAttribute="trailing" secondItem="Esg-Eq-7C3" secondAttribute="trailing" id="BBs-5G-vVA"/>
                             <constraint firstItem="hTG-f5-tKh" firstAttribute="top" secondItem="87i-YT-ooe" secondAttribute="bottom" constant="8" id="BVc-8r-2ww"/>
-                            <constraint firstItem="Esg-Eq-7C3" firstAttribute="top" secondItem="s5b-d4-DYF" secondAttribute="top" id="NQn-3t-smx"/>
+                            <constraint firstItem="Esg-Eq-7C3" firstAttribute="top" secondItem="s5b-d4-DYF" secondAttribute="top" constant="10" id="NQn-3t-smx"/>
                             <constraint firstItem="svJ-wp-KFK" firstAttribute="top" secondItem="Qtt-DC-2lp" secondAttribute="bottom" constant="20" id="RcB-r0-rmQ"/>
                             <constraint firstAttribute="trailing" secondItem="87i-YT-ooe" secondAttribute="trailing" constant="8" id="c5Z-Yx-xh8"/>
                             <constraint firstItem="87i-YT-ooe" firstAttribute="top" secondItem="Esg-Eq-7C3" secondAttribute="bottom" constant="8" id="e6a-Qr-3S1"/>
