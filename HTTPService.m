@@ -38,7 +38,7 @@
         
         if (data != nil) {          // if there is data
             NSError *err;           // this is error for parsing data
-            NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:&err];  // parse into json
+            NSArray *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:&err];  // parse into json
             
             if (err == nil) {                // if there is no error on parsing
                 completionHanlder(json, nil);   //NSLog(@"JSON: %@", json.debugDescription);

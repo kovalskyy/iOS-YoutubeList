@@ -15,6 +15,7 @@
 		238DDE891E350B2A00E9A296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238DDE871E350B2A00E9A296 /* LaunchScreen.storyboard */; };
 		238DDE921E350B4500E9A296 /* HTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 238DDE911E350B4500E9A296 /* HTTPService.m */; };
 		23BF25DE1E360BA1006298C8 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BF25DD1E360BA1006298C8 /* VideoCell.m */; };
+		23BF25E31E361476006298C8 /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BF25E21E361476006298C8 /* Video.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +29,12 @@
 		238DDE851E350B2A00E9A296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		238DDE881E350B2A00E9A296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		238DDE8A1E350B2A00E9A296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		238DDE901E350B4500E9A296 /* HTTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPService.h; sourceTree = "<group>"; };
-		238DDE911E350B4500E9A296 /* HTTPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPService.m; sourceTree = "<group>"; };
+		238DDE901E350B4500E9A296 /* HTTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPService.h; path = ../HTTPService.h; sourceTree = "<group>"; };
+		238DDE911E350B4500E9A296 /* HTTPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPService.m; path = ../HTTPService.m; sourceTree = "<group>"; };
 		23BF25DC1E360BA1006298C8 /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
 		23BF25DD1E360BA1006298C8 /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		23BF25E11E361476006298C8 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		23BF25E21E361476006298C8 /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +51,6 @@
 		238DDE6D1E350B2A00E9A296 = {
 			isa = PBXGroup;
 			children = (
-				238DDE901E350B4500E9A296 /* HTTPService.h */,
-				238DDE911E350B4500E9A296 /* HTTPService.m */,
 				238DDE781E350B2A00E9A296 /* DevslopesYoutubeListTutorial */,
 				238DDE771E350B2A00E9A296 /* Products */,
 			);
@@ -66,6 +67,8 @@
 		238DDE781E350B2A00E9A296 /* DevslopesYoutubeListTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				23BF25E01E361438006298C8 /* Model */,
+				23BF25DF1E36118E006298C8 /* HTTP services */,
 				23BF25DB1E360B73006298C8 /* View */,
 				238DDE7C1E350B2A00E9A296 /* AppDelegate.h */,
 				238DDE7D1E350B2A00E9A296 /* AppDelegate.m */,
@@ -95,6 +98,24 @@
 				23BF25DD1E360BA1006298C8 /* VideoCell.m */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		23BF25DF1E36118E006298C8 /* HTTP services */ = {
+			isa = PBXGroup;
+			children = (
+				238DDE901E350B4500E9A296 /* HTTPService.h */,
+				238DDE911E350B4500E9A296 /* HTTPService.m */,
+			);
+			name = "HTTP services";
+			sourceTree = "<group>";
+		};
+		23BF25E01E361438006298C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23BF25E11E361476006298C8 /* Video.h */,
+				23BF25E21E361476006298C8 /* Video.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +193,7 @@
 				238DDE811E350B2A00E9A296 /* ViewController.m in Sources */,
 				23BF25DE1E360BA1006298C8 /* VideoCell.m in Sources */,
 				238DDE921E350B4500E9A296 /* HTTPService.m in Sources */,
+				23BF25E31E361476006298C8 /* Video.m in Sources */,
 				238DDE7E1E350B2A00E9A296 /* AppDelegate.m in Sources */,
 				238DDE7B1E350B2A00E9A296 /* main.m in Sources */,
 			);

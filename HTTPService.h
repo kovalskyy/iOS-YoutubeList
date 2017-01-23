@@ -11,7 +11,7 @@
 // Block syntax for a callback! Very weird syntax
 
 
-typedef void (^onComplete)(NSDictionary * __nullable dataDict, NSString * __nullable errMessage);
+typedef void (^onComplete)(NSArray * __nullable dataArray, NSString * __nullable errMessage);
 
 @interface HTTPService : NSObject
 
